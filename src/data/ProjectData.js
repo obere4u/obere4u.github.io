@@ -1,50 +1,38 @@
 // --------------------------------------- Project List
 export const ProjectList = [
   {
-    img: "/ykte-feature-graphic.png",
-    title: "YouKnowTheEnding",
-    description:
-      "A cross-platform mobile game (in closed testing) where players try to find the missing pieces of a story.",
-    tech_stack: ["React Native", "Google Cloud", "NextJs", "TailwindCSS"],
+    img: "/cybersecurity.png",
+    title: "E-learning platform",
+    description: `A responsive e-learning platform that have seen more than 500 users. It filters courses based on user learning track.`,
+    tech_stack: ["ReactJs", "Tailwindcss", "Express", "NodeJs", "MongoDB"],
     github_url: "",
-    demo_url: "https://youknowtheending.net/",
+    demo_url: "",
   },
   {
-    img: "/renr-responsive.png",
-    title: "RENR Safety App",
+    img: "/homey.png",
+    title: "A Responsive realtor website",
     description:
-      "A safety application for the Renewable Resources Dept. of BCIT",
-    tech_stack: ["React", "Firebase"],
-    github_url: "",
+      "A realtor website where users can register, and perform a CRUD (Create, Read, Update and Delete) on a listing. None registered user can view listings and contact the Landlord (owner of the listing). When I was on this project, I was able to implement Geolocation using the API provided by Microsoft after having a long battle with implementing one which highlights my ability as a solution getter.",
+    tech_stack: [
+      "ReactJs",
+      "firebase",
+      "Tailwindcss",
+      "TailwindCSS",
+      "Microsoft Geolocation API",
+      "CSS",
+    ],
+    github_url: "https://github.com/obere4u/homey-one",
+    demo_url: "https://homey-one.vercel.app/",
+  },
+  {
+    img: "/whatgpt.png",
+    title: "A Responsive landing page for GPT-3",
+    description:
+      "This is I did to showcase my ReactJs skills. I built it from scratch following a design. The landing page is responsive to almost all screen sizes.",
+    tech_stack: ["React", "CSS", "HTML"],
+    github_url: "https://github.com/obere4u/whatGPT3",
     demo_url: "https://renr-bcit.web.app/",
-  },
-  {
-    img: "/mymind-responsive.png",
-    title: "MyMind",
-    description:
-      "An app where users can purchase online therapy sessions and chat with their therapists.",
-    tech_stack: ["HTML", "CSS", "NodeJs", "MongoDB", "SocketIo"],
-    github_url: "https://github.com/salesp07/MyMind---Copy",
-    demo_url: "https://mymindweb.vercel.app/",
-  },
-  {
-    img: "/pokedex-responsive.png",
-    title: "Pokedex",
-    description:
-      "A pokedex app that displays pokemon data, plays OSTs and makes pokemons dance.",
-    tech_stack: ["ReactJs", "NodeJs", "MongoDB"],
-    github_url: "https://github.com/salesp07/Pokedex-ReactApp",
-    demo_url: "https://pokedex-salesp07.netlify.app/",
-  },
-  {
-    img: "/jobDetect.png",
-    title: "JobDetect",
-    description:
-      "An app to detect if a job posting is a scam or not using its description.",
-    tech_stack: ["Python", "Flask", "NodeJs", "MongoDB"],
-    github_url: "https://github.com/salesp07/JobDetectNode",
-    demo_url: "https://jobdetective.onrender.com/",
-  },
+  }
 ];
 
 // --------------------------------------- Skills
@@ -66,22 +54,22 @@ export const stackList = [
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
     name: "ReactJS",
   },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg",
-    name: "NextJs",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
-    name: "Typescript",
-  },
+  // {
+  //   img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg",
+  //   name: "NextJs",
+  // },
+  // {
+  //   img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
+  //   name: "Typescript",
+  // },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg",
     name: "Git",
   },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
-    name: "React Native",
-  },
+  // {
+  //   img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
+  //   name: "React Native",
+  // },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg",
     name: "NodeJS",
@@ -94,22 +82,22 @@ export const stackList = [
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg",
     name: "MongoDB",
   },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-    name: "Python",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg",
-    name: "Flask",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg",
-    name: "C",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
-    name: "Java",
-  },
+  // {
+  //   img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+  //   name: "Python",
+  // },
+  // {
+  //   img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg",
+  //   name: "Flask",
+  // },
+  // {
+  //   img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg",
+  //   name: "C",
+  // },
+  // {
+  //   img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+  //   name: "Java",
+  // },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg",
     name: "MySQL",
@@ -122,10 +110,10 @@ export const stackList = [
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-original.svg",
     name: "Material UI",
   },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg",
-    name: "Figma",
-  },
+  // {
+  //   img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg",
+  //   name: "Figma",
+  // },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg",
     name: "TailwindCSS",

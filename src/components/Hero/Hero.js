@@ -23,51 +23,50 @@ function Hero() {
   };
   return (
     <main>
-      <Dropdown isOpen={isOpen} toggle={toggle} />
+      <Dropdown
+        isOpen={isOpen}
+        toggle={toggle}
+      />
       <Header toggle={toggle} />
       <HeroContainer>
         <HeroWrapper>
           <HeroLeft>
-            <ScrollAnimation animateIn="fadeIn" >
+            <ScrollAnimation animateIn="fadeIn">
               <TypeAnimation
                 cursor={false}
-                sequence={[
-                  'Hi, I\'m Pedro.',
-                  () => setShowSubtitle(true)
-                ]}
+                sequence={["Hi 👋, I'm Tochukwu.", () => setShowSubtitle(true)]}
                 speed={{ type: "keyStrokeDelayInMs", value: 150 }}
                 wrapper="h1"
                 repeat={0}
               />
-              {showSubtitle &&
+              {showSubtitle && (
                 <TypeAnimation
                   cursor={true}
                   sequence={[
                     500,
-                    'A Full-Stack Developer.',
+                    "A Frontend Developer.",
                     1000,
-                    'A BCIT graduate.',
-                    // 'I design and code beautifully simple things, and I love what I do.',
+                    "I design and code beautifully simple things, and I love what I do.",
                     1000,
-                    'A problem solver.',
+                    "A problem solver.",
                     1000,
-                    'An innovative thinker.',
+                    "An innovative thinker 👷‍♂️.",
                     1000,
-                    'A....',
+                    "A....",
                     1000,
-                    'A.... cool guy?',
+                    "A.... cool guy? 🤔",
                     1000,
                     "Ok...",
                     1000,
-                    "Ok...  I'm running out of ideas...",
+                    "Ok...  I'm running out of ideas 🤔...",
                     1000,
-                    "Uhh...",
+                    "Uhh... ",
                     1000,
                     "Uhh... you can scroll down to see my projects now...",
                     300,
                     () => setShowScrollDown(true),
                     1000,
-                    "Seriously, my projects are really cool, go check them out!",
+                    "Seriously, my projects are really cool, go check them out! ❤",
                     1000,
                     "You're uh...",
                     1000,
@@ -87,30 +86,37 @@ function Hero() {
                   wrapper="h5"
                   repeat={Infinity}
                 />
-              }
+              )}
             </ScrollAnimation>
-
           </HeroLeft>
           <HeroRight>
             <ScrollAnimation animateIn="fadeIn">
               <Image
-                src="/man-svgrepo-com.svg"
-                alt="man-svgrepo"
+                src="/tochi-no-bg.png"
+                alt="tochukwu_nwosa_on_ankra_clothe"
               />
             </ScrollAnimation>
           </HeroRight>
         </HeroWrapper>
-        {showScrollDown &&<ScrollAnimation animateIn="flipInX" offset={0}>
-        <ScrollDown to="projects" id="scrollDown">
-          <ScrollLink>
-            Scroll down
-            <img
-              src="/scroll-down.svg"
-              alt="scroll-down"
-            />
-          </ScrollLink>
-        </ScrollDown>
-        </ScrollAnimation>}
+        {showScrollDown && (
+          <ScrollAnimation
+            animateIn="flipInX"
+            offset={0}
+          >
+            <ScrollDown
+              to="projects"
+              id="scrollDown"
+            >
+              <ScrollLink>
+                Scroll down
+                <img
+                  src="/scroll-down.svg"
+                  alt="scroll-down"
+                />
+              </ScrollLink>
+            </ScrollDown>
+          </ScrollAnimation>
+        )}
       </HeroContainer>
     </main>
   );

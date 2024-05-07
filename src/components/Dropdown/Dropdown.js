@@ -58,7 +58,10 @@ export const NavBtn = styled.div`
 
 function Dropdown({ isOpen, toggle }) {
   return (
-    <SiderBar isOpen={isOpen} onClick={toggle}>
+    <SiderBar
+      isOpen={isOpen}
+      onClick={toggle}
+    >
       <CloseIcon onClick={toggle} />
       <NavMenu>
         <NavLink
@@ -86,7 +89,7 @@ function Dropdown({ isOpen, toggle }) {
       <NavBtn onClick={toggle}>
         <a
           className="btn PrimaryBtn"
-          href="https://linkedin.com/in/pedro-sales-muniz"
+          href="https://drive.google.com/file/d/1Fie4e_eak4x7flzz22Gvb2VYGRip3HVc/view"
           target="_blank"
           rel="noopener noreferrer"
         >

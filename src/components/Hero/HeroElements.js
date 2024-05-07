@@ -44,7 +44,7 @@ export const HeroLeft = styled.div`
 
   h1 {
     font-size: 2.8rem;
-    color: #f6f6f6;
+    color: #212121;
     opacity: 0.98;
     font-weight: 400;
   }
@@ -110,6 +110,7 @@ export const ScrollDown = styled(LinkScroll)`
     position: relative;
     justify-content: center;
     margin-top: 2rem;
+    color: #212121;
   }
 `;
 
@@ -117,7 +118,7 @@ export const ScrollLink = styled.div`
   display: flex;
   align-items: center;
   font-size: 1.3rem;
-  color: #f6f6f6;
+  color: #212121;
 
   img {
     height: 35px;

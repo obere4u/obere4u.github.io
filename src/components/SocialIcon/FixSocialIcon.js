@@ -1,11 +1,11 @@
 import React from "react";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaDev } from "react-icons/fa";
 import styled from "@emotion/styled";
 import ScrollAnimation from "react-animate-on-scroll";
 
 const SocialContainer = styled.div`
   position: fixed;
-  top: 48%;
+  top: 50%;
   left: 1.5rem;
   transform: translateY(-50%);
 
@@ -19,9 +19,19 @@ const SocialContainer = styled.div`
 
   a {
     font-size: 2.3rem;
-    color: rgb(119, 119, 121);
+    color: rgb(255, 255, 255);
+    background: #000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     &:hover {
-      color: rgb(57, 134, 250);
+      color: rgb(0, 0, 0);
+      background: #f6f6f6;
+    }
+
+    .round {
+      border-radius: 50%;
     }
   }
 
@@ -39,9 +49,10 @@ const SocialContainer = styled.div`
 
     a {
       font-size: 2.5rem;
-      color: #151418;
+      color: #f6f6f6;
       &:hover {
-        color: rgb(57, 134, 250);
+        color: rgb(0, 0, 0);
+        background: #f6f6f6;
       }
     }
 
@@ -54,24 +65,36 @@ const SocialContainer = styled.div`
 function FixSocialIcon() {
   return (
     <SocialContainer>
-      <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
+      <ScrollAnimation
+        animateIn="fadeIn"
+        animateOnce={true}
+      >
         <ul>
           <li className="item">
             <a
-              href="https://www.linkedin.com/in/pedro-sales-muniz"
+              href="https://www.linkedin.com/in/nwosat-tochukwu"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaLinkedin />
+              <FaLinkedin className="round" />
             </a>
           </li>
           <li className="item">
             <a
-              href="https://github.com/salesp07"
+              href="https://github.com/obere4u"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaGithub />
+            </a>
+          </li>
+          <li className="item">
+            <a
+              href="https://dev.to/obere4u"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaDev className="round" />
             </a>
           </li>
         </ul>

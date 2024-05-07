@@ -8,8 +8,9 @@ export const Card = styled.div`
   padding-bottom: 2rem;
   overflow: hidden;
   border-radius: 10px;
-  box-shadow: 0 5px 15px -3px rgba(0, 0, 0, 0.1),
-    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  background: #212121;
+  box-shadow: 0 -3px 5px 1px rgba(255, 255, 255, 0.7),
+    0 4px 6px -2px rgba(256, 256, 256, 0.8);
   @media (min-width: 992px) {
     grid-template-columns: 1fr 1fr;
     border-bottom: 0;
@@ -18,10 +19,14 @@ export const Card = styled.div`
 `;
 
 export const CardLeft = styled.div`
-  justify-self: center;
+  
   height: 100%;
+
   img {
     object-fit: cover;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
   }
 `;
 
@@ -34,6 +39,7 @@ export const CardRight = styled.div`
   h4 {
     font-size: 1.5rem;
     font-weight: 400;
+    color: #f6f6f6;
   }
 
   p {
@@ -41,7 +47,7 @@ export const CardRight = styled.div`
     max-width: 95%;
     margin-top: 10px;
     margin-bottom: 1rem;
-    color: rgba(0, 0, 0, 0.815);
+    color: rgba(255, 255, 255, 0.9);
     text-align: center;
 
     @media (min-width: 992px) {
@@ -71,7 +77,7 @@ export const TechCardContainer = styled.div`
 
 export const TechCard = styled.div`
   border-radius: 10px;
-  background-color: #f5f5f5;
+  background-color: rgb(255, 255, 255);
   padding: 5px 10px;
   margin: 5px;
   display: flex;
@@ -79,7 +85,7 @@ export const TechCard = styled.div`
   justify-content: center;
   font-size: 15px;
   font-weight: 400;
-  color: rgba(0, 0, 0, 0.815);
+  color: rgb(0, 0, 0);
   cursor: default;
-  box-shadow: 0px 2px 5px rgba(160, 170, 180, 0.6);
+  box-shadow: 0px 2px 5px rgba(160, 170, 180, 0.3);
 `;
