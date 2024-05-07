@@ -2,9 +2,7 @@
 Live Preview - [Click Here](https://obere4u.github.io/)
 
 <br/>
-<div align="center">
-  <img alt="Demo" src="public/mockup.png" />
-</div>
+
 <br/>
 <br/>
 
