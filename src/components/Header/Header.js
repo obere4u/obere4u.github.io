@@ -3,7 +3,10 @@ import { Nav, Logo, NavLink, Bars, NavMenu, NavBtn } from "./HeaderElements";
 
 const Header = ({ toggle }) => {
   return (
-    <div className="Container" style={{padding: 0}}>
+    <div
+      className="Container"
+      style={{ padding: 0 }}
+    >
       <Nav>
         <Logo to="/">
           <img
@@ -12,20 +15,29 @@ const Header = ({ toggle }) => {
           />
         </Logo>
         <NavMenu>
-          <NavLink className="menu-item" to="projects">
+          <NavLink
+            className="menu-item"
+            to="projects"
+          >
             Projects
           </NavLink>
-          <NavLink className="menu-item" to="about">
+          <NavLink
+            className="menu-item"
+            to="about"
+          >
             About
           </NavLink>
-          <NavLink className="menu-item" to="contact">
+          <NavLink
+            className="menu-item"
+            to="contact"
+          >
             Contact
           </NavLink>
         </NavMenu>
         <NavBtn>
           <a
             className="btn PrimaryBtn"
-            href="https://drive.google.com/file/d/1Fie4e_eak4x7flzz22Gvb2VYGRip3HVc/view"
+            href="https://drive.google.com/file/d/1m6MJRBV8WGMtd8NNWHBNdb5Rmj2DfLkg/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
