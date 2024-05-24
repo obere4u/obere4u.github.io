@@ -44,7 +44,7 @@ function Hero() {
                   cursor={true}
                   sequence={[
                     500,
-                    "A Frontend Developer.",
+                    "A Frontend Developer and a Technical writer.",
                     1000,
                     "I design and code beautifully simple things, and I love what I do.",
                     1000,
