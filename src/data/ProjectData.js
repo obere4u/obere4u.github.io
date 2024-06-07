@@ -31,8 +31,8 @@ export const ProjectList = [
       "This is I did to showcase my ReactJs skills. I built it from scratch following a design. The landing page is responsive to almost all screen sizes.",
     tech_stack: ["React", "CSS", "HTML"],
     github_url: "https://github.com/obere4u/whatGPT3",
-    demo_url: "https://renr-bcit.web.app/",
-  }
+    demo_url: "https://whatgpt-tau.vercel.app/",
+  },
 ];
 
 // --------------------------------------- Skills
