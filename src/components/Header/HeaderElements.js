@@ -32,7 +32,7 @@ export const Logo = styled('div')`
 
 export const Bars = styled(FaBars)`
   display: none;
-  color: #fff;
+  color: #121212;
   font-size: 1.8rem;
   cursor: pointer;
   @media screen and (max-width: 768px) {
